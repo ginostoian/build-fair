@@ -63,6 +63,25 @@ module.exports = {
     // You can add another theme among the list of 30+
     // Add "data-theme='theme_name" to any HTML tag to enable the 'theme_name' theme.
     // https://daisyui.com/
-    themes: ["light", "dark"],
+    themes: [
+      "light",
+      "dark",
+      "corporate",
+      "nord",
+      "winter",
+      {
+        buildfair: {
+          primary: "#0B1F3A", // Deep navy — trust, authority
+          secondary: "#F4A300", // Warm amber — highlights, subtle energy
+          accent: "#00A97F", // Deep teal — affirmation, action
+          neutral: "#F3F4F6", // Light grey — clean background
+          "base-100": "#FFFFFF", // Pure white — content surfaces
+          info: "#2563EB", // Blue — used for guidance/info elements
+          success: "#16A34A", // Confirmations
+          warning: "#F59E0B", // Price or scope flags
+          error: "#DC2626", // Major red flags or alerts
+        },
+      },
+    ],
   },
 };
