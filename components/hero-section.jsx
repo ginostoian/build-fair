@@ -107,7 +107,8 @@ export default function HeroSection() {
                   as="h1"
                   className="mt-8 text-balance text-6xl md:text-7xl lg:mt-16 xl:text-[5.25rem]"
                 >
-                  Modern Solutions for Customer Engagement
+                  Upload your builder&apos;s quote. Get expert feedback in 24
+                  hours.
                 </TextEffect>
                 <TextEffect
                   per="line"
@@ -117,8 +118,9 @@ export default function HeroSection() {
                   as="p"
                   className="mx-auto mt-8 max-w-2xl text-balance text-lg"
                 >
-                  Highly customizable components for building modern websites
-                  and applications that look and feel the way you mean it.
+                  We review renovation quotes line-by-line to help you spot red
+                  flags, vague pricing, or overcharges-before you spend
+                  £10K-£20k+.
                 </TextEffect>
 
                 <AnimatedGroup
@@ -145,7 +147,7 @@ export default function HeroSection() {
                       className="rounded-xl px-5 text-base"
                     >
                       <Link href="#link">
-                        <span className="text-nowrap">Start Building</span>
+                        <span className="text-nowrap">Upload your quote</span>
                       </Link>
                     </Button>
                   </div>
@@ -157,7 +159,7 @@ export default function HeroSection() {
                     className="h-10.5 rounded-xl px-5"
                   >
                     <Link href="#link">
-                      <span className="text-nowrap">Request a demo</span>
+                      <span className="text-nowrap">Sample review</span>
                     </Link>
                   </Button>
                 </AnimatedGroup>
