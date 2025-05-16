@@ -7,12 +7,12 @@ export default function Testimonials() {
       <div className="mx-auto max-w-6xl space-y-8 px-6 md:space-y-16">
         <div className="relative z-10 mx-auto max-w-xl space-y-6 text-center md:space-y-12">
           <h2 className="text-4xl font-medium lg:text-5xl">
-            Build by makers, loved by thousand developers
+            Real homeowners. Real savings. Real peace of mind.
           </h2>
           <p>
-            Gemini is evolving to be more than just the models. It supports an
-            entire to the APIs and platforms helping developers and businesses
-            innovate.
+            We&apos;ve helped people across the UK spot red flags, avoid
+            surprise costs, and feel confident before signing. Here&apos;s what
+            they had to say:
           </p>
         </div>
 
@@ -30,12 +30,12 @@ export default function Testimonials() {
             <CardContent>
               <blockquote className="grid h-full grid-rows-[1fr_auto] gap-6">
                 <p className="text-xl font-medium">
-                  Tailus has transformed the way I develop web applications.
-                  Their extensive collection of UI components, blocks, and
-                  templates has significantly accelerated my workflow. The
-                  flexibility to customize every aspect allows me to create
-                  unique user experiences. Tailus is a game-changer for modern
-                  web development
+                  “I nearly signed off on a £34K quote without realising it
+                  didn&apos;t include electrics, waste removal, or final
+                  fittings. BuildFair broke it down, explained where the gaps
+                  were, and helped me push back. The builder actually came back
+                  with a revised scope and knocked £2,700 off. Easiest £49
+                  I&apos;ve ever spent.”
                 </p>
 
                 <div className="grid grid-cols-[auto_1fr] items-center gap-3">
@@ -51,11 +51,9 @@ export default function Testimonials() {
                   </Avatar>
 
                   <div>
-                    <cite className="text-sm font-medium">
-                      Shekinah Tshiokufila
-                    </cite>
+                    <cite className="text-sm font-medium">Matt</cite>
                     <span className="text-muted-foreground block text-sm">
-                      Software Ingineer
+                      South London
                     </span>
                   </div>
                 </div>
@@ -66,8 +64,8 @@ export default function Testimonials() {
             <CardContent className="h-full pt-6">
               <blockquote className="grid h-full grid-rows-[1fr_auto] gap-6">
                 <p className="text-xl font-medium">
-                  Tailus is really extraordinary and very practical, no need to
-                  break your head. A real gold mine.
+                  Felt like I had a mate in the trade looking out for me.
+                  Straight-up honest feedback.
                 </p>
 
                 <div className="grid grid-cols-[auto_1fr] items-center gap-3">
@@ -82,9 +80,9 @@ export default function Testimonials() {
                     <AvatarFallback>JY</AvatarFallback>
                   </Avatar>
                   <div>
-                    <cite className="text-sm font-medium">Jonathan Yombo</cite>
+                    <cite className="text-sm font-medium">Aisha</cite>
                     <span className="text-muted-foreground block text-sm">
-                      Software Ingineer
+                      Birmingham
                     </span>
                   </div>
                 </div>
@@ -95,8 +93,8 @@ export default function Testimonials() {
             <CardContent className="h-full pt-6">
               <blockquote className="grid h-full grid-rows-[1fr_auto] gap-6">
                 <p>
-                  Great work on tailfolio template. This is one of the best
-                  personal website that I have seen so far!
+                  Saved me from overpaying by at least £1,500. The markup
+                  explanations were gold.
                 </p>
 
                 <div className="grid items-center gap-3 [grid-template-columns:auto_1fr]">
@@ -111,11 +109,9 @@ export default function Testimonials() {
                     <AvatarFallback>YF</AvatarFallback>
                   </Avatar>
                   <div>
-                    <cite className="text-sm font-medium">
-                      Yucel Faruksahan
-                    </cite>
+                    <cite className="text-sm font-medium">Laura</cite>
                     <span className="text-muted-foreground block text-sm">
-                      Creator, Tailkits
+                      Leeds
                     </span>
                   </div>
                 </div>
@@ -126,8 +122,8 @@ export default function Testimonials() {
             <CardContent className="h-full pt-6">
               <blockquote className="grid h-full grid-rows-[1fr_auto] gap-6">
                 <p>
-                  Great work on tailfolio template. This is one of the best
-                  personal website that I have seen so far!
+                  I was worried it was a scam, but it&apos;s not. You get a
+                  proper breakdown and real advice. 10/10.
                 </p>
 
                 <div className="grid grid-cols-[auto_1fr] gap-3">
@@ -142,9 +138,9 @@ export default function Testimonials() {
                     <AvatarFallback>YF</AvatarFallback>
                   </Avatar>
                   <div>
-                    <p className="text-sm font-medium">Rodrigo Aguilar</p>
+                    <p className="text-sm font-medium">Ben</p>
                     <span className="text-muted-foreground block text-sm">
-                      Creator, TailwindAwesome
+                      Manchester
                     </span>
                   </div>
                 </div>
