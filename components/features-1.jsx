@@ -7,11 +7,11 @@ export default function Features() {
       <div className="@container mx-auto max-w-5xl px-6">
         <div className="text-center">
           <h2 className="text-balance text-4xl font-semibold lg:text-5xl">
-            Built to cover your needs
+            What we actually do. And how it helps you.
           </h2>
           <p className="mt-4">
-            Libero sapiente aliquam quibusdam aspernatur, praesentium iusto
-            repellendus.
+            We break down your builder’s quote line by line—so you can spot
+            fluff, fight back on cost, or move ahead with confidence.
           </p>
         </div>
         <div className="@min-4xl:max-w-full @min-4xl:grid-cols-3 mx-auto mt-8 grid max-w-sm gap-6 *:text-center md:mt-16">
@@ -24,13 +24,13 @@ export default function Features() {
                 />
               </CardDecorator>
 
-              <h3 className="mt-6 font-medium">Customizable</h3>
+              <h3 className="mt-6 font-medium">1. Upload your quote</h3>
             </CardHeader>
 
             <CardContent>
               <p className="text-sm">
-                Extensive customization options, allowing you to tailor every
-                aspect to meet your specific needs.
+                PDF, photo, email—whatever format it&apos;s in, we can handle
+                it.
               </p>
             </CardContent>
           </Card>
@@ -44,13 +44,15 @@ export default function Features() {
                 />
               </CardDecorator>
 
-              <h3 className="mt-6 font-medium">You have full control</h3>
+              <h3 className="mt-6 font-medium">
+                2. We review and flag everything
+              </h3>
             </CardHeader>
 
             <CardContent>
               <p className="mt-3 text-sm">
-                From design elements to functionality, you have complete control
-                to create a unique and personalized experience.
+                One of our experts goes through it line by line: vague pricing,
+                missing items, inflated costs, or cowboy red flags.
               </p>
             </CardContent>
           </Card>
@@ -64,13 +66,13 @@ export default function Features() {
                 />
               </CardDecorator>
 
-              <h3 className="mt-6 font-medium">Powered By AI</h3>
+              <h3 className="mt-6 font-medium">You get a report in 24 hours</h3>
             </CardHeader>
 
             <CardContent>
               <p className="mt-3 text-sm">
-                Elements to functionality, you have complete control to create a
-                unique experience.
+                A clean, plain-English audit delivered straight to your inbox.
+                No jargon. No drama. Just the truth.
               </p>
             </CardContent>
           </Card>
