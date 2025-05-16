@@ -21,11 +21,9 @@ export default function PricingPlans() {
           <div className="rounded-(--radius) flex flex-col justify-between space-y-8 border p-6 md:col-span-2 md:my-2 md:rounded-r-none md:border-r-0 lg:p-10">
             <div className="space-y-4">
               <div>
-                <h2 className="font-medium">Free</h2>
-                <span className="my-3 block text-2xl font-semibold">
-                  $0 / mo
-                </span>
-                <p className="text-muted-foreground text-sm">Per editor</p>
+                <h2 className="font-medium">Project &lt; £15,000</h2>
+                <span className="my-3 block text-2xl font-semibold">£49</span>
+                <p className="text-muted-foreground text-sm">Per quote</p>
               </div>
 
               <Button
@@ -40,9 +38,10 @@ export default function PricingPlans() {
 
               <ul className="list-outside space-y-3 text-sm">
                 {[
-                  "Basic Analytics Dashboard",
-                  "5GB Cloud Storage",
-                  "Email and Chat Support",
+                  "Expert review within 24h",
+                  "Red flags highlighted line by line",
+                  "Plain-English report with cost guidance",
+                  "Built-in peace of mind before you commit",
                 ].map((item, index) => (
                   <li
                     key={index}
@@ -60,11 +59,9 @@ export default function PricingPlans() {
             <div className="grid gap-6 sm:grid-cols-2">
               <div className="space-y-4">
                 <div>
-                  <h2 className="font-medium">Pro</h2>
-                  <span className="my-3 block text-2xl font-semibold">
-                    $19 / mo
-                  </span>
-                  <p className="text-muted-foreground text-sm">Per editor</p>
+                  <h2 className="font-medium">Project &lt; £45,000</h2>
+                  <span className="my-3 block text-2xl font-semibold">£99</span>
+                  <p className="text-muted-foreground text-sm">Per quote</p>
                 </div>
 
                 <Button
@@ -77,21 +74,17 @@ export default function PricingPlans() {
 
               <div>
                 <div className="text-sm font-medium">
-                  Everything in free plus :
+                  Limited reviews per week
                 </div>
 
                 <ul className="mt-4 list-outside space-y-3 text-sm">
                   {[
-                    "Everything in Free Plan",
-                    "5GB Cloud Storage",
-                    "Email and Chat Support",
-                    "Access to Community Forum",
-                    "Single User Access",
-                    "Access to Basic Templates",
-                    "Mobile App Access",
-                    "1 Custom Report Per Month",
-                    "Monthly Product Updates",
-                    "Standard Security Features",
+                    "Expert review within 72h",
+                    "Red flags highlighted line by line",
+                    "Plain-English report with cost guidance",
+                    "Built-in peace of mind before you commit",
+                    "Scope gaps, vague terms, and hidden extras flagged",
+                    " Advice on what to clarify, question, or renegotiate",
                   ].map((item, index) => (
                     <li
                       key={index}
