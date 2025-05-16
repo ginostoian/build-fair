@@ -8,17 +8,19 @@ export default function PricingOption() {
       <div className="mx-auto max-w-5xl px-6">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-balance text-3xl font-bold md:text-4xl lg:text-5xl">
-            Start managing your company smarter today
+            For bigger builds-where one missed detail can cost thousands.
           </h2>
         </div>
         <div className="mt-8 md:mt-20">
           <div className="bg-card relative rounded-3xl border shadow-2xl shadow-zinc-950/5">
             <div className="grid items-center gap-12 divide-y p-12 md:grid-cols-2 md:divide-x md:divide-y-0">
               <div className="pb-12 text-center md:pb-0 md:pr-12">
-                <h3 className="text-2xl font-semibold">Suite Enterprise</h3>
-                <p className="mt-2 text-lg">For your company of any size</p>
+                <h3 className="text-2xl font-semibold">BuildFair Premium</h3>
+                <p className="mt-2 text-lg">
+                  For renovation projects over £45K, extensions or lofts
+                </p>
                 <span className="mb-6 mt-12 inline-block text-6xl font-bold">
-                  <span className="text-4xl">$</span>234
+                  <span className="text-4xl">£</span>299
                 </span>
 
                 <div className="flex justify-center">
@@ -31,8 +33,7 @@ export default function PricingOption() {
                 </div>
 
                 <p className="text-muted-foreground mt-12 text-sm">
-                  Includes : Security, Unlimited Storage, Payment, Search
-                  engine, and all features
+                  Includes : PDF Report, Email Q&A, Peace of mind before signing
                 </p>
               </div>
               <div className="relative pl-4">
@@ -41,10 +42,10 @@ export default function PricingOption() {
                   className="space-y-4"
                 >
                   {[
-                    "First premium advantage",
-                    "Second advantage weekly",
-                    "Third advantage donate to project",
-                    "Fourth, access to all components weekly",
+                    "Expert review",
+                    "Red flags highlighted line by line",
+                    "Plain-English report with cost guidance",
+                    "Built-in peace of mind before you commit",
                   ].map((item, index) => (
                     <li
                       key={index}
