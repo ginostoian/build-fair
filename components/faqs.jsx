@@ -9,7 +9,9 @@ export default function FAQs() {
               <br className="hidden lg:block" />
               Questions
             </h2>
-            <p>Accusantium quisquam. Illo, omnis?</p>
+            <p>
+              You&apos;re not the first to ask. And you won&apos;t be the last.
+            </p>
           </div>
 
           <div className="divide-y divide-dashed sm:mx-auto sm:max-w-lg lg:mx-0">
@@ -84,7 +86,7 @@ export default function FAQs() {
             </div>
             <div className="py-6">
               <h3 className="font-medium">
-                What if I’ve got two or three quotes for the same job?
+                What if I&apos;ve got two or three quotes for the same job?
               </h3>
               <p className="text-muted-foreground mt-4">
                 That&apos;s actually ideal. We can compare them side-by-side,
