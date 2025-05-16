@@ -13,12 +13,11 @@ export default function RedFlags() {
       <div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-16">
         <div className="relative z-10 mx-auto max-w-xl space-y-6 text-center md:space-y-12">
           <h2 className="text-balance text-4xl font-medium lg:text-5xl">
-            The foundation for creative teams management
+            Red Flags We Catch All the Time
           </h2>
           <p>
-            Lyra is evolving to be more than just the models. It supports an
-            entire to the APIs and platforms helping developers and businesses
-            innovate.
+            Most quotes look fine on the surface. Until you know what to look
+            for.
           </p>
         </div>
 
@@ -26,59 +25,63 @@ export default function RedFlags() {
           <div className="space-y-3">
             <div className="flex items-center gap-2">
               <Zap className="size-4" />
-              <h3 className="text-sm font-medium">Faaast</h3>
+              <h3 className="text-sm font-medium">Vague line items</h3>
             </div>
             <p className="text-sm">
-              It supports an entire helping developers and innovate.
+              “Electrics - £3,200” with zero detail? Not good enough.
             </p>
           </div>
           <div className="space-y-2">
             <div className="flex items-center gap-2">
               <Cpu className="size-4" />
-              <h3 className="text-sm font-medium">Powerful</h3>
+              <h3 className="text-sm font-medium">
+                Provisional sums with no cap
+              </h3>
             </div>
             <p className="text-sm">
-              It supports an entire helping developers and businesses.
+              “To be confirmed later” often means “surprise invoice.”
             </p>
           </div>
           <div className="space-y-2">
             <div className="flex items-center gap-2">
               <Fingerprint className="size-4" />
 
-              <h3 className="text-sm font-medium">Security</h3>
+              <h3 className="text-sm font-medium">Missing scope</h3>
             </div>
             <p className="text-sm">
-              It supports an helping developers businesses.
+              No mention of plastering, waste removal, or final fittings?
+              You&apos;ll be paying extra.
             </p>
           </div>
           <div className="space-y-2">
             <div className="flex items-center gap-2">
               <Pencil className="size-4" />
 
-              <h3 className="text-sm font-medium">Customization</h3>
+              <h3 className="text-sm font-medium">Labour cost inflation</h3>
             </div>
             <p className="text-sm">
-              It supports helping developers and businesses innovate.
+              We&apos;ve seen £600/day pricing for junior trades. Nah.
             </p>
           </div>
           <div className="space-y-2">
             <div className="flex items-center gap-2">
               <Settings2 className="size-4" />
 
-              <h3 className="text-sm font-medium">Control</h3>
+              <h3 className="text-sm font-medium">Double-dipping</h3>
             </div>
             <p className="text-sm">
-              It supports helping developers and businesses innovate.
+              Charging for both “install” and “labour”? We&apos;ll show you
+              where the overlap is.
             </p>
           </div>
           <div className="space-y-2">
             <div className="flex items-center gap-2">
               <Sparkles className="size-4" />
 
-              <h3 className="text-sm font-medium">Built for AI</h3>
+              <h3 className="text-sm font-medium">Dodgy timelines or terms</h3>
             </div>
             <p className="text-sm">
-              It supports helping developers and businesses innovate.
+              Vague completion dates and one-sided contracts? We flag them.
             </p>
           </div>
         </div>
